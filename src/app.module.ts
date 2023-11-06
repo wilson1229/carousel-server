@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { CarouselController } from './controller/carousel.controller';
+import { CarouselService } from './service/carousel.service';
 import { DatabaseModule } from './db.module';
 
 @Module({
   imports: [DatabaseModule],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [CarouselController],
+  providers: [CarouselService],
 })
 export class AppModule {}
