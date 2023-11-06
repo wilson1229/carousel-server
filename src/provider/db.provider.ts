@@ -1,7 +1,7 @@
 import { Sequelize } from 'sequelize-typescript';
 
 import { CarouselItem } from '../entity/carouselItem.entity';
-import { CarouselImage } from '../entity/CarouselImage.entity';
+import { CarouselImage } from '../entity/carouselImage.entity';
 
 export const dbProviders = [
   {
